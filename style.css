@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+.navbar{
+    background-color: #333533;
+    padding: 20px;
+}
+
+.navbar-brand{
+    color: #dee2e6;
+}
+
+.navbar-brand:hover{
+    color: #ffffff;
+}
+
+.nav-link{
+    color: #dee2e6;
+    text-align: center;
+    font-size: 120%;
+}
+.nav-link:hover{
+    color: #ffffff;
+}
+
+.navbar-toggler{
+    border: 2px solid #dee2e6;
+}
+
+.navbar-toggler:hover{
+    color: #ffffff;
+}
+
+header{
+    padding: 50px;
+    text-align: center;
+}
+
+header img{
+    border-radius: 100%;
+    border: 5px solid #333533;
+}
+
+body{
+    background: linear-gradient(#FFEE32, #fca311);
+}
+
+.portfolio{
+    padding: 50px;
+}
+
+.portfolio h2{
+    text-align: center;
+}
+
+.card{
+    box-shadow: 10px 10px 5px gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #202020;
+    margin: 10px;
+}
+
+.card-body{
+    background-color: #202020;
+    border-radius: 0;
+    color: #F5F3F4;
+}
+
+.acercaDeMi{
+    padding: 50px;
+}
+
+.acercaDeMi h2{
+    text-align: center;
+}
+
+.contacto{
+    padding: 50px;
+}
+
+.contacto h2{
+    text-align: center;
+}
+
+.contacto input{
+    background-color: #333533;
+    color: #F5F3F4;
+    border-color: #333533;
+}
+
+.contacto input:focus{
+    background-color: #495057;
+    color: #F5F3F4;
+    border-color: #333533;
+}
+
+.contacto textarea{
+    background-color: #333533;
+    color: #F5F3F4;
+    border-color: #333533;
+    resize: none;
+}
+
+.contacto textarea:focus{
+    background-color: #495057;
+    color: #F5F3F4;
+    border-color: #333533;
+}
+
+.btn-primary{
+    background-color: #333533;
+    border-color: #333533;
+}
+
+.btn-primary:hover{
+    background-color: #495057;
+    border-color: #333533;
+}
+
+.footer{
+    background-color: #333533;
+    color: #F5F3F4;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer a i{
+    font-size: 150%;
+    padding: 5px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #F5F3F4;
+}
+
+
+.copyright{
+    background-color: #202020;
+    text-align: center;
+    color: #F5F3F4;
+    padding: 20px;
+}
+

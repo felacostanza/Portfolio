@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../bootstrap-5.2.3-dist/css/bootstrap.css">
+    <link rel="stylesheet"  href="http://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Portofolio</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#inicio">Felipe Costanza</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
+                      <a class="nav-link" href="#acercaDeMi">Acerca De Mi</a>
+                      <a class="nav-link" href="#contacto">Contacto</a>
+                    </div>
+                  </div>
+                </div>
+        </div>
+        <div class="row justify-content-center" id="inicio">
+            <header class="col-xs-12 col-sm-5 col-md-4 col-lg-3 col-xl-3">
+                <img src="https://us.123rf.com/450wm/martialred/martialred1608/martialred160800018/61263271-cuenta-de-usuario-perfil-del-icono-del-c%C3%ADrculo-plana-para-aplicaciones-y-sitios-web.jpg" class="img-fluid" alt="Foto">
+                <h1>Felipe Costanza</h1>
+                <p>Estudiante</p>
+            </header>
+        </div>
+        <div class="row portfolio justify-content-center" id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="col-sm-12 col-md-5 col-lg-3 col-xl-3">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1551958219-acbc608c6377?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="img-fluid rounded mx-auto card-img-top" alt="Foto1">
+                    <div class="card-body">
+                      <p class="card-text">Primer proyecto</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 col-xl-3">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1505391610862-c63dde65ae97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="img-fluid rounded mx-auto card-img-top" alt="Foto2">
+                    <div class="card-body">
+                      <p class="card-text">Segundo proyecto</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3 col-xl-3">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1529933116320-bca609dd8227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="img-fluid rounded mx-auto card-img-top" alt="Foto3">
+                    <div class="card-body">
+                      <p class="card-text">Tercer proyecto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row acercaDeMi justify-content-center" id="acercaDeMi">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
+                <h2>Acerca de mí</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, cupiditate totam. Eos doloremque aut labore quas exercitationem cupiditate veritatis, porro illum voluptate quam culpa ipsam commodi! Reiciendis doloribus tempora molestiae?</p>
+            </div>
+        </div>
+        <div class="row contacto justify-content-center" id="contacto">
+            <h2>Contacto</h2>
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="inputNombre">Nombre</label>
+                        <input type="text" class="form-control" id="inputNombre">
+                    </div>
+                    <div class="mb-3">
+                    <label for="inputEmail" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputTelefono">Número de teléfono</label>
+                        <input type="text" class="form-control" id="inputTelefono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envíar</button>
+                </form>
+            </div>
+        </div>
+        <div class="row footer justify-content-evenly">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 col-xl-4">
+                <h3>Dirección</h3>
+                <p>Paraná 2200</p>
+                <p>Martínez</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 col-xl-4">
+                <h3>Redes</h3>
+                <a href="https://www.instagram.com/felacostanza_" target="_blank"><i class='fab fa-instagram'></i></a>
+                <a href="https://github.com/felacostanza" target="_blank"><i class='fab fa-github'></i></a>
+            </div>
+        </div>
+        <div class="row copyright justify-content-center">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 col-xl-4">
+                <p>Copyright © Mi sitio web - 28 de abril de 2023</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
