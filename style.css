@@ -39,8 +39,18 @@ body{
     color: #ffffff;
 }
 
+.linkButton{
+    background-color: rgb(33, 37, 41);
+    border: 0;
+    color: #dee2e6;
+}
+
+.linkButton:hover{
+    color: #ffffff;
+}
+
 header{
-    padding: 50px;
+    padding-top: 100px;
     text-align: center;
 }
 

@@ -11,22 +11,36 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row justify-content-center">
-            <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#inicio">Felipe Costanza</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#inicio">Felipe Costanza</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
-                      <a class="nav-link" href="#acercaDeMi">Acerca De Mi</a>
-                      <a class="nav-link" href="#contacto">Contacto</a>
+                </button>
+                <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Barra de navegación</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                  </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#inicio"><button type="button" class="linkButton" data-bs-dismiss="offcanvas" aria-label="Close">Inicio</button></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio"><button type="button" class="linkButton" data-bs-dismiss="offcanvas" aria-label="Close">Portfolio</button></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#acercaDeMi"><button type="button" class="linkButton" data-bs-dismiss="offcanvas" aria-label="Close">Acerca de mí</button></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto"><button type="button" class="linkButton" data-bs-dismiss="offcanvas" aria-label="Close">Contacto</button></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-        </div>
+            </div>
+        </nav>
         <div class="row justify-content-center" id="inicio">
             <header class="col-xs-12 col-sm-5 col-md-4 col-lg-3 col-xl-3">
                 <img src="https://us.123rf.com/450wm/martialred/martialred1608/martialred160800018/61263271-cuenta-de-usuario-perfil-del-icono-del-c%C3%ADrculo-plana-para-aplicaciones-y-sitios-web.jpg" class="img-fluid" alt="Foto">
@@ -65,7 +79,7 @@
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
                 <h2>Acerca de mí</h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, cupiditate totam. Eos doloremque aut labore quas exercitationem cupiditate veritatis, porro illum voluptate quam culpa ipsam commodi! Reiciendis doloribus tempora molestiae?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, cupiditate totam. Eos doloremque aut labore quas exercitationem cupiditate veritatis, porro illum voluptate quam culpa ipsam commodi! Reiciendis doloribus tempora molestiae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cumque quasi ducimus soluta est! Dolore eligendi fugiat minima numquam, reiciendis quod velit ab, minus accusamus tempora quos? Consequatur, fugit quibusdam?</p>
             </div>
         </div>
         <div class="row contacto justify-content-center" id="contacto">
@@ -100,8 +114,8 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 col-xl-4">
                 <h3>Redes</h3>
-                <a href="https://www.instagram.com/felacostanza_" target="_blank"><i class='fab fa-instagram'></i></a>
-                <a href="https://github.com/felacostanza" target="_blank"><i class='fab fa-github'></i></a>
+                <a href="https://www.instagram.com/felacostanza_" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/felacostanza" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </div>
         <div class="row copyright justify-content-center">
