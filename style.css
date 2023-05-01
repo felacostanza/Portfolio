@@ -60,7 +60,7 @@ header img{
 }
 
 body{
-    background: linear-gradient(#FFEE32, #fca311);
+    background: radial-gradient(#FFEE32, #ff9e02, #ff006e);
 }
 
 .portfolio{
@@ -82,6 +82,10 @@ body{
     background-color: #202020;
     border-radius: 0;
     color: #F5F3F4;
+}
+
+.card-text{
+    text-align: center;
 }
 
 .acercaDeMi{
@@ -143,7 +147,7 @@ body{
 }
 
 .footer a i{
-    font-size: 150%;
+    font-size: 175%;
     padding: 5px;
 }
 
@@ -152,6 +156,27 @@ body{
     color: #F5F3F4;
 }
 
+#instagram{
+    transition: transform 0.5s;
+}
+
+#instagram:hover{
+    transform: scale(1.6);
+    background: linear-gradient(to bottom right, #fca311, #ff006e, #540d6e);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#github{
+    transition: transform 0.5s;
+}
+
+#github:hover{
+    transform: scale(1.6);
+    background: #4078c0;
+    -webkit-background-clip: text;
+    color: transparent;
+}
 
 .copyright{
     background-color: #202020;
@@ -160,3 +185,8 @@ body{
     padding: 20px;
 }
 
+@media only screen and (max-width: 294px){
+    .navbar-brand{
+        font-size: 100%;
+    }
+}
